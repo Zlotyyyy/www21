@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="nowy">
+            <form method="post" enctype="text/plain" action="mailto:igorszymczak@zsge.eu"
+            novalidate autocomplete="off">
+                <datalist id="przedmioty">
+                    <option value="Systemy Operacyjme">Systemy Operacyjne</option>
+                    <option value="Witryny i aplikacje">Witryny i aplikacje</option>
+                </datalist>
+
+        
+        
+        
+        
+        Imię: <br> <input type="text" name="imie"> <br>
+        Nazwisko: <br> <input type="text" name="nazwisko"> <br>
+        Hasło: <br> <input type="password" name="Hasło"> <br>
+        
+        <br>Płeć<br>
+        <input class="nie" type="radio" name="plec" value="kobieta"> Kobieta <br>
+        <input class="nie" type="radio" name="plec" value="mezczyzna"> Mężczyzna
+        <br> <br> Wiek <br>
+        <select name="wiek" id="wiek">
+            <option value="0-17">0-17</option>
+            <option value="18-30">18-30</option>
+            <option value="30-100">30-100</option>   
+        </select>
+        
+        <br><br><label>Kolor skóry <br><input type="color" class="nie"></label> <br>
+        
+        Uwagi: 
+        <br> <textarea name="uwagi" id="" cols="30" rows="10" placeholder="Wpisz uwagi"></textarea>
+        <br> <br>
+        <input type="submit" value="Wyślij" class="nie">
+        <input type="reset" value="Wyczyść dane" class="nie">
+                </form>
+        </div>
+</body>
+</html>
